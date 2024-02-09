@@ -1,0 +1,205 @@
+#MyNavbar {
+    border: 0;
+  }
+  
+  #jumbotron {
+      border-color: black;
+      border-width: 5px;
+      border-style: solid;
+      
+  }
+  
+  img {
+    vertical-align: top;
+    width: 100%;
+  }
+  
+  .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  
+  #openingtext {
+    font-size: 175px;
+    color: white;
+    font-family: Poiret One;
+  }
+  
+  #openingtext2 {
+    font-size: 145px;
+    color: white;
+    font-family: Poiret One;
+  }
+  
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    
+  }
+  
+  #openingfont {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Poiret One'
+  }
+    
+  .centered {
+    position: absolute;
+    width: 100%;
+  
+      
+  }
+  
+  
+  
+  ul {
+    font-family: Oswald;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: Poiret One;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: Poiret One;
+  }
+  
+  h4 {
+    text-align: center;
+    font-family: Poiret One;
+  }
+  
+  .img {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    
+  }
+  
+  
+  .thick-black-border {
+    border-color: black;
+      border-width: 5px;
+      border-style: solid;
+  }
+  
+  #thick-black-border2 {
+    border-color: black;
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 5px;
+  }
+  
+  #container1 {
+    margin-top: 250px;
+  }
+  #container2 {
+    margin-top: 250px;
+  }
+  
+  #container3 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  #container4 {
+    margin-top: 1px;
+  }
+  
+  
+  #portfolio1 {
+    width: 500px;
+    height: 300px;
+    
+  }
+  
+  
+  p {
+    font-family: Oswald;
+    font-size: 25px;
+  }
+  
+  .center {
+    margin: auto;
+  }
+  
+  hr {
+    border-color: black;
+    border-width: 1px;
+    width: 500px;
+  }
+  
+  .icon {
+    width: 200px;
+    height: 200px;
+  }
+  input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+  }
+  
+  input[type=submit] {
+      background-color: black;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+      background-color: #45a049;
+  }
+  
+  .container {
+      border-radius: 5px;
+      padding: 20px;
+  }
+  #openingtext button {
+    font-size: 36px;
+    padding: 20px 40px; /* Adjust padding for desired button size */
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #openingtext button:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Adjust the transparency (last value) */
+  }
